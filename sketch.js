@@ -77,6 +77,10 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
+
+  textSize(40);
+  fill("White");
+  text("Press SPACE to get one more throw.",100,50);
   
   ground1.display();
   ground2.display();
