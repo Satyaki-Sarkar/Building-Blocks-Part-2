@@ -25,27 +25,27 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-	ground1=new Ground(475,335,200,20);
-	ground2=new Ground(900,250,200,20);
+	ground1=new Ground(590,370,200,20);
+	ground2=new Ground(920,250,200,20);
 	mainGround=new Ground(width/2,490,width,20);
     
 	//Bottom Layer-1st set
-	box1 = new Box(400,300,50,50);
-	box2 = new Box(450,300,50,50);
-	box3 = new Box(500,300,50,50);
-	box4 = new Box(550,300,50,50);
+	box1 = new Box(445,300,50,50);
+	box2 = new Box(495,300,50,50);
+	box3 = new Box(545,300,50,50);
+	box4 = new Box(595,300,50,50);
 
 	//Second Layer-1st set
-	box5 = new Box(425,250,50,50);
-	box6 = new Box(475,250,50,50);
-	box7 = new Box(525,250,50,50);
+	box5 = new Box(470,250,50,50);
+	box6 = new Box(540,250,50,50);
+	box7 = new Box(570,250,50,50);
 
 	//Third Layer-1st set
-	box8 = new Box(450,200,50,50);
-	box9 = new Box(500,200,50,50);
+	box8 = new Box(495,200,50,50);
+	box9 = new Box(545,200,50,50);
 
 	//Top Layer-1st set
-	box10 = new Box(475,150,50,50);
+	box10 = new Box(520,150,50,50);
 
 	//Bottom Layer-2nd set
 	box11 = new Box(825,215,50,50);
