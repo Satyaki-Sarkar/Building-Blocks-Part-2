@@ -30,22 +30,22 @@ function setup() {
 	mainGround=new Ground(width/2,490,width,20);
     
 	//Bottom Layer-1st set
-	box1 = new Box(445,300,50,50);
-	box2 = new Box(495,300,50,50);
-	box3 = new Box(545,300,50,50);
-	box4 = new Box(595,300,50,50);
+	box1 = new Box(495,320,50,50);
+	box2 = new Box(545,320,50,50);
+	box3 = new Box(595,320,50,50);
+	box4 = new Box(645,320,50,50);
 
 	//Second Layer-1st set
-	box5 = new Box(470,250,50,50);
-	box6 = new Box(540,250,50,50);
-	box7 = new Box(570,250,50,50);
+	box5 = new Box(520,270,50,50);
+	box6 = new Box(580,270,50,50);
+	box7 = new Box(620,270,50,50);
 
 	//Third Layer-1st set
-	box8 = new Box(495,200,50,50);
-	box9 = new Box(545,200,50,50);
+	box8 = new Box(545,220,50,50);
+	box9 = new Box(595,220,50,50);
 
 	//Top Layer-1st set
-	box10 = new Box(520,150,50,50);
+	box10 = new Box(570,170,50,50);
 
 	//Bottom Layer-2nd set
 	box11 = new Box(825,215,50,50);
